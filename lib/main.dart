@@ -4,6 +4,7 @@ import 'screens/02_inicio_sesion.dart';
 import 'screens/03_registro_usuario.dart';
 import 'screens/04_perfil_usuario.dart';
 import 'screens/compras.dart';
+import 'screens/administrar_usuarios.dart';
 
 
 void main() {
@@ -24,6 +25,7 @@ class MercadoLibre extends StatelessWidget {
         '/registro': (context) => const FormularioRegistro(),
         '/perfil': (context) => const PerfilUsuario(),
         '/compras': (context) => const Compras(),
+        '/administrarUsuarios': (context) => const AdministrarUsuarios(),
       },
     );
   }

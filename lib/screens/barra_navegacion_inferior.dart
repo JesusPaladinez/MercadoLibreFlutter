@@ -23,7 +23,7 @@ class _BarraNavegacionInferiorState extends State<BarraNavegacionInferior> {
         Navigator.pushNamed(context, '/');
         break;
       case 1:
-        Navigator.pushNamed(context, '/compras');
+        Navigator.pushNamed(context, '/administrarUsuarios');
         break;
       case 2:
         Navigator.pushNamed(context, '/perfil');
