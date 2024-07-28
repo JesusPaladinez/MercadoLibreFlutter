@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mercado_pago/screens/05_barra_navegacion_inferior.dart';
+import 'package:mercado_pago/screens/08_modal_usuarios.dart';
 
 
 class AdministrarUsuarios extends StatefulWidget {
@@ -50,7 +52,7 @@ class _AdministrarUsuariosState extends State<AdministrarUsuarios> {
               Icons.arrow_circle_right_outlined
             ),
             onTap: () {
-              
+              modalUsuario(context);
             },
           ),
           const SizedBox(
@@ -100,6 +102,7 @@ class _AdministrarUsuariosState extends State<AdministrarUsuarios> {
           ),
         ],
       ),
+      bottomNavigationBar: const BarraNavegacionInferior(),
     );
   }
 }

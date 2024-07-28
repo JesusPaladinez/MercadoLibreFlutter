@@ -23,9 +23,12 @@ class _BarraNavegacionInferiorState extends State<BarraNavegacionInferior> {
         Navigator.pushNamed(context, '/');
         break;
       case 1:
-        Navigator.pushNamed(context, '/administrarUsuarios');
+        Navigator.pushNamed(context, '/compras');
         break;
       case 2:
+        Navigator.pushNamed(context, '/administrarUsuarios');
+        break;
+      case 3:
         Navigator.pushNamed(context, '/perfil');
         break;
     }
@@ -52,6 +55,14 @@ class _BarraNavegacionInferiorState extends State<BarraNavegacionInferior> {
             color: Colors.amber[600],
           ),
           label: 'Compras'
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(
+            Icons.settings, 
+            size: 30.0,
+            color: Colors.amber[600],
+          ),
+          label: 'Administración'
         ),
         BottomNavigationBarItem(
           icon: Icon(

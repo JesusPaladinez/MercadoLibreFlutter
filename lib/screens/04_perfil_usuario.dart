@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'barra_navegacion_inferior.dart';
+import 'package:mercado_pago/screens/08_modal_usuarios.dart';
+import '05_barra_navegacion_inferior.dart';
 
 
 class PerfilUsuario extends StatelessWidget {
@@ -84,11 +85,21 @@ class PerfilUsuario extends StatelessWidget {
                         color: Colors.blue,
                       ),
                       title: const Text('Cambiar contraseña'),
+                      onTap: () {
+                        
+                      },
+                    ),
+                    ListTile(
+                      leading: const Icon(
+                        Icons.supervisor_account_rounded,
+                        color: Colors.blue,
+                      ),
+                      title: const Text('Administrar usuarios'),
                       trailing: const Icon(
                         Icons.arrow_forward_ios
                       ),
                       onTap: () {
-                        
+                        modalUsuario(context);
                       },
                     ),
                   ],

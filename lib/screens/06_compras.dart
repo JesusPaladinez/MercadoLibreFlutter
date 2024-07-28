@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'barra_navegacion_inferior.dart';
+import '05_barra_navegacion_inferior.dart';
 
 class Compras extends StatelessWidget {
   const Compras({super.key});

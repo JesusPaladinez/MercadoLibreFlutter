@@ -3,8 +3,8 @@ import 'screens/01_menu_principal.dart';
 import 'screens/02_inicio_sesion.dart';
 import 'screens/03_registro_usuario.dart';
 import 'screens/04_perfil_usuario.dart';
-import 'screens/compras.dart';
-import 'screens/administrar_usuarios.dart';
+import 'screens/06_compras.dart';
+import 'screens/07_administrar_usuarios.dart';
 
 
 void main() {
